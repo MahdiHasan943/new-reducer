@@ -3,6 +3,7 @@ import './App.css';
 import { useReducer, useState } from 'react';
 import SimpleCount from './simple count/SimpleCount';
 import SimpleReducer from './simpleReducer/SimpleReducer';
+import LongForm from './form/LongForm';
 
 function App() {
 
@@ -42,11 +43,12 @@ function App() {
   </div>
 </div>
       </div>
+      <LongForm></LongForm>
 
 
-      <SimpleReducer></SimpleReducer>
+      {/* <SimpleReducer></SimpleReducer>
 
-      <SimpleCount ></SimpleCount>
+      <SimpleCount ></SimpleCount> */}
     </div>
   );
 }
